@@ -1,0 +1,11 @@
+{
+  "name": "realtime-task-board",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev:server": "npm run dev -w server",
+    "dev:server2": "PORT=4001 npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "test": "npm run test -w server"
+  }
+}
